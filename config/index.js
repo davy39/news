@@ -26,6 +26,7 @@ const locales = [
   'chinese',
   'english',
   'espanol',
+  'french',
   'italian',
   'japanese',
   'korean',
@@ -41,6 +42,7 @@ const localeCodes = {
   chinese: 'zh',
   english: 'en',
   espanol: 'es',
+  french: 'fr',
   italian: 'it',
   japanese: 'ja',
   korean: 'ko',
@@ -52,6 +54,7 @@ const algoliaIndices = {
   chinese: 'news-zh',
   english: 'news',
   espanol: 'news-es',
+  french: 'news-fr',
   italian: 'news-it',
   japanese: 'news-ja',
   korean: 'news-ko',
@@ -112,7 +115,7 @@ const getSiteURL = (lang, forOriginalArticle) => {
   if (computedDomain.startsWith('localhost')) {
     return `http://${computedDomain}${computedPath}/`;
   } else {
-    return `https://www.${computedDomain}${computedPath}/`;
+    return `https://${computedDomain}${computedPath}/`;
   }
 };
 

@@ -1,0 +1,17 @@
+{
+  "forum": "https://forum.freecodecamp.org/c/french/533",
+  "learn": "https://www.freecodecamp.org/french/learn",
+  "donate": "https://www.freecodecamp.org/french/donate",
+  "banner": {
+    "default": "https://www.freecodecamp.org/french/",
+    "authenticated": "https://www.freecodecamp.org/french/donate",
+    "authenticated-donor": "https://www.freecodecamp.org/french/news/comment-faire-un-don-a-freecodecamporg-moyens-de-donner-et-de-soutenir-la-mission/"
+  },
+  "twitter": "https://twitter.com/freeCodeCampFR",
+  "footer": {
+    "about": "https://www.freecodecamp.org/french/news/a-propos-de-freecodecamp-foire-aux-questions-faq/",
+    "support": "https://www.freecodecamp.org/french/news/questions-courantes-du-support-technique-faq-freecodecamp/",
+    "honesty": "https://www.freecodecamp.org/french/news/politique-dhonnetete-academique-de-freecodecamp/",
+    "coc": "https://www.freecodecamp.org/french/news/le-code-de-conduite-de-freecodecamp/"
+  }
+}

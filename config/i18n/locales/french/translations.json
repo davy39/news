@@ -1,0 +1,99 @@
+{
+  "buttons": {
+    "forum": "Forum",
+    "donate": "Faire un don",
+    "load-more-articles": "Charger plus d'articles",
+    "menu": "Menu",
+    "learn": "Programme"
+  },
+  "search": {
+    "label": "Rechercher",
+    "accessible-name": "Soumettre votre requête de recherche",
+    "placeholder": {
+      "default": "Recherchez parmi nos articles, tutoriels et livres",
+      "numbered": "Recherchez parmi plus de {{ roundedTotalRecords }} articles, tutoriels et livres"
+    },
+    "see-results": "Voir tous les résultats pour {{ searchQuery }}",
+    "no-results": "Aucun résultat trouvé"
+  },
+  "banner": {
+    "default": "Apprenez à coder — {{ <0> }}3 000 heures de cours gratuits{{ </0> }}",
+    "authenticated": "Soutenez notre organisation à but non lucratif et notre mission. {{ <0> }}Faites un don à freeCodeCamp.org{{ </0> }}.",
+    "authenticated-donor": "Merci de {{ <0> }}votre don{{ </0> }} pour soutenir freeCodeCamp."
+  },
+  "default-bio": "Lire {{ <0> }}plus d'articles{{ </0> }}.",
+  "author": {
+    "no-posts": "Aucun article",
+    "one-post": "1 article",
+    "multiple-posts": "{{ postCount }} articles"
+  },
+  "tag": {
+    "no-posts": "Aucun article",
+    "one-post": "1 article au total",
+    "multiple-posts": "{{ postCount }} articles au total"
+  },
+  "404": {
+    "page-not-found": "Page non trouvée",
+    "go-to-front-page": "Retourner à la page d'accueil"
+  },
+  "social-row": {
+    "cta": {
+      "tweet-a-thanks": "Puisque vous avez lu jusqu'ici, remerciez l'auteur pour son travail. {{ <0> }}Dites merci{{ </0> }}",
+      "tweet-it": "Si cet article vous a aidé, {{ <0> }}partagez-le{{ </0> }}."
+    },
+    "tweets": {
+      "default": "Merci {{ author }} d'avoir écrit cet article utile.",
+      "translation": "Merci {{ author }} d'avoir écrit cet article utile, et merci à {{ translator }} de l'avoir traduit."
+    }
+  },
+  "learn-to-code-cta": "Apprenez à coder gratuitement sur freeCodeCamp. Le programme open source de freeCodeCamp a aidé plus de 40 000 personnes à obtenir un emploi de développeur. {{ <0> }}Commencer à apprendre{{ </0> }}",
+  "original-author-translator": {
+    "roles": {
+      "author": "Auteur : {{ name }} ({{ locale }})",
+      "translator": "Traducteur : {{ name }}"
+    },
+    "details": {
+      "original-article": "{{ <0> }}Article original : {{ </0> }} {{ title }}"
+    },
+    "locales": {
+      "chinese": "Chinois",
+      "english": "Anglais",
+      "espanol": "Espagnol",
+      "italian": "Italien",
+      "japanese": "Japonais",
+      "korean": "Coréen",
+      "portuguese": "Portugais",
+      "ukrainian": "Ukrainien"
+    }
+  },
+  "embed-title": "Contenu embarqué",
+  "footer": {
+    "tax-exempt-status": "freeCodeCamp est une organisation caritative régie par la section 501(c)(3) soutenue par des donateurs (N° d'identification fiscale : 82-0779546).",
+    "mission-statement": "Notre mission : aider les gens à apprendre à coder gratuitement. Nous y parvenons en créant des milliers de vidéos, d'articles et de cours de codage interactifs — tous accessibles gratuitement au public.",
+    "donation-initiatives": "Tous les dons à freeCodeCamp sont destinés à nos programmes éducatifs, à l'achat de serveurs et d'autres services, ainsi qu'à l'embauche de personnel.",
+    "donate-text": "Vous pouvez {{ <0> }}faire un don déductible d'impôts ici{{ </0> }}.",
+    "trending-books-and-handbooks": "Livres et guides populaires",
+    "mobile-app": "Application mobile",
+    "our-nonprofit": "Notre organisation à but non lucratif",
+    "links": {
+      "powered-by": "Publication propulsée par Hashnode",
+      "about": "À propos",
+      "alumni": "Anciens élèves",
+      "open-source": "Open Source",
+      "shop": "Boutique",
+      "support": "Support",
+      "sponsors": "Sponsors",
+      "honesty": "Intégrité académique",
+      "coc": "Code de conduite",
+      "privacy": "Politique de confidentialité",
+      "tos": "Conditions d'utilisation",
+      "copyright": "Droit d'auteur"
+    }
+  },
+  "fallback": {
+    "message": "Votre navigateur ne supporte pas l'élément HTML5 {{ element }}.",
+    "audio": "audio",
+    "video": "vidéo"
+  },
+  "ad-text": "Publicité"
+}
