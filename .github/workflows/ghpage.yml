@@ -1,0 +1,61 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # ou le nom de votre branche par défaut
+  workflow_dispatch:
+# Autorisations nécessaires pour GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    # Définition des variables d'environnement demandées
+    env:
+      LOCALE_FOR_UI: french
+      LOCALE_FOR_GHOST: french
+      DO_NOT_FETCH_FROM_GHOST: true
+      HASHNODE_API_URL: https://gql.hashnode.com
+      FRENCH_HASHNODE_HOST: frenchcodecamp.hashnode.dev
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 8
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build project
+        run: npm run build # Note : s'assure que la commande génère bien un dossier /dist
+
+      - name: Prepare subfolder structure
+        run: |
+          mkdir staging
+          mv dist staging/news
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './staging' # Le dossier à publier
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
