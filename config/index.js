@@ -115,7 +115,7 @@ const getSiteURL = (lang, forOriginalArticle) => {
   if (computedDomain.startsWith('localhost')) {
     return `http://${computedDomain}${computedPath}/`;
   } else {
-    return `https://www.${computedDomain}${computedPath}/`;
+    return `https://${computedDomain}${computedPath}/`;
   }
 };
 
