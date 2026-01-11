@@ -1,12 +1,13 @@
 name: Daily Translation & Build
 
 on:
-  schedule:
-    - cron: '0 6 * * *'
+  #  NOT WORKING ANYMORE SINCE NO HASHNODE ENDPOINT DUE TO COPYRIGHT ISSUE...
+  #schedule:
+  #  - cron: '0 6 * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - french
+  #push:
+  #  branches:
+  #    - french
 
 permissions:
   contents: read
